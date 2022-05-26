@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.classHeather{
+    background-image: url(https://images2.alphacoders.com/195/thumb-1920-195750.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#header h1 {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+
+}
+
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 10px solid rgb(27, 19, 68);
+    border-top: 10px solid rgb(27, 19, 68);
+}
+
+#content {
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    border: 10px solid rgba(5, 120, 155, 0.233);
+}
+
+.contentTile {
+    height: 700px;
+    width: 150px;
+    background-color: lightgreen;
+    margin: 20px;
+}
+
+.contentHome {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    width: 220px;
+    border: 5px solid rgba(5, 120, 155, 0.233);
+    background-image: url(https://images8.alphacoders.com/694/thumb-1920-694705.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: honeydew; /* de ce nu schimba culoarea textului cand introduc aici 1 */
+}
+
+.contentBorderMenu {
+    box-shadow: 
+      /* 0 0 0 1px #ee6352,
+      0 0 0 3px #d45379,
+      0 0 0 5px #a4558f,
+      0 0 0 7px #6d588e, */
+      0 0 0 5px #405378;
+    
+    /* additional styling */
+    width: 40%;
+    margin: 0 auto;
+    max-width: 15%;
+    padding: 1em 2em;
+    border-radius: 1em;
+    color: honeydew; /* aici schimba 1 */
+}
+
+.contentBorderMenu:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: rgba(107, 106, 106, 0.507);
+}
+.corp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.corpSpacing{
+    padding-top: 70px;
+    padding-left: 0px;
+    padding-right: 50px;
+
+}
+
+.backgroundBody{
+    border-left: 10px solid rgb(27, 19, 68);
+    border-right: 10px solid rgb(27, 19, 68);
+    border-bottom: 10px solid rgb(27, 19, 68);
+    background-image: url(https://images.alphacoders.com/193/thumb-1920-193.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.headerBorder{
+    border-top: 10px solid rgb(27, 19, 68);
+    border-left: 10px solid rgb(27, 19, 68);
+    border-right: 10px solid rgb(27, 19, 68);
+}
+
+.pozitieMeniu {
+    background-image: url(https://images.alphacoders.com/193/thumb-1920-193.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px
+}
+
+.toTheTop {
+    background-color: rgba(255, 255, 255, 0);
+    border-width: 0;
+    cursor: pointer;
+    position: sticky;
+    position: -webkit-sticky;
+    background-image: url(https://github.com/AlexPascal1/temafe/blob/master/imaginiSpaceX/RocketToTheTop.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    z-index: 99;
+}
+
